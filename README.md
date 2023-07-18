@@ -9,3 +9,5 @@ Asymmetric cryptography involves a public and private key, where the public key 
 • For signature creation and verification, the Elliptic Curve Digital Signature Algorithm (ECDSA) is used. Here, all owners verify themselves by using their public and private keys.
 • The combination of both identity and attribute-based access policies makes the system robust. To decrypt the message, the data user has to satisfy the attribute-based access policy in addition to having the key. 
 The data owner has the right to specify the access policy for the users. And the data owner specifies the access policy in a tree format which consists of a set of attributes related to the data consumer.
+
+![image](https://github.com/Paragben/DATA-ENCRYPTION/assets/106899303/b00ed221-a5a6-47f2-a47b-19b1775acde6)
