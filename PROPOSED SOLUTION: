@@ -1,0 +1,18 @@
+PROPOSED SOLUTION
+The proposed solution is the EECDH Algorithm.
+• The basic working involves the multiplication of the private keys of sender and receiver with a point ‘G’ on a curve, which produces their public keys.
+• Now, the shared key is derived.
+• The ECC point multiplication is done instead of modular multiplications.
+• The main concept is:
+(a * G) * b = (b * G) * a
+• Where ‘a’ is the private key of sender,
+• ‘b’ is the private key of receiver,
+• ‘G’ is the generator point.
+• a*G is the public key of sender,
+• b*G is the public key of receiver.
+• Now, sender public key * receiver private key = sender private key * receiver public key = secret.
+• This shared key is used by both the sender and the receiver.
+• The sender uses it for the encryption of the data.
+• The receiver uses it for the decryption.
+• If the key of the sender matches that of the receiver, then the receiver is allowed to view the data.
+• If the shared key does not match, then the receiver is not allowed.
